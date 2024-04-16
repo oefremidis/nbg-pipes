@@ -6,3 +6,8 @@
 {{ 12345 | doNothing }} <br>
 {{ { num: 12345 } | doNothing }} <br>
 {{ { num: 12345 } | json | doNothing }} <br>
+<hr>
+{{ 'Alice' | reverseString }}
+<hr>
+{{ 'Alice' | withParams : 'Dear' : 'Welcome' }} <br>
+{{ 'Bob' | withParams : 'Welcome' : 'and thank you' }}
